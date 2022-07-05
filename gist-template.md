@@ -14,6 +14,10 @@ For this particular example, we will go over matching an email.
 
     Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+    This means: acceptable characters for email username can include letters from a through z, numbers from 0-9, and the special characters listed.
+                then an @ symbol followed by email that can include letters defined and symbols defined
+                then a . followed by characters that can be from a-z and are between 2 and 6 characters in length.
+
 ## Table of Contents
 
 - [Anchors](#anchors)
